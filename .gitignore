@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+venv2/
+__pycache__/
+*.pyc
+
+# Keys and credentials
+*.pem
+*.key
+*.env
+
+# Data files
+*.csv
+*.parquet
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.bak2
+
+# Nohup
+nohup.out
+
+# Model exports (keep model.pt)
+*.onnx

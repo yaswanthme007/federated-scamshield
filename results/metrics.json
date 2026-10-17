@@ -1,0 +1,396 @@
+{
+  "setup_A": {
+    "pr_auc": 0.9749999424827651,
+    "roc_auc": 0.9827298747946587,
+    "recall_at_1pct_fpr": 0.9723699763593381,
+    "f1": 0.9831882151034181,
+    "pr_auc_min": 0.9683222934740103,
+    "pr_auc_max": 0.9863849028837004,
+    "per_bank": [
+      {
+        "pr_auc": 0.9716151158800336,
+        "roc_auc": 0.9845259751420835,
+        "recall_at_1pct_fpr": 0.9680851063829787,
+        "f1": 0.9831932773109243,
+        "precision_at_best_f1": 0.998780487804878,
+        "recall_at_best_f1": 0.9680851063829787,
+        "best_threshold": 0.09486059642654229,
+        "confusion_matrix": [
+          [
+            41948,
+            2
+          ],
+          [
+            54,
+            1638
+          ]
+        ],
+        "bank_id": 0,
+        "train_rows": 1091193,
+        "train_fraud": 2656
+      },
+      {
+        "pr_auc": 0.9863849028837004,
+        "roc_auc": 0.9934845884862369,
+        "recall_at_1pct_fpr": 0.9846335697399528,
+        "f1": 0.9832134292565947,
+        "precision_at_best_f1": 0.9975669099756691,
+        "recall_at_best_f1": 0.9692671394799054,
+        "best_threshold": 0.010008995893510392,
+        "confusion_matrix": [
+          [
+            41946,
+            4
+          ],
+          [
+            52,
+            1640
+          ]
+        ],
+        "bank_id": 1,
+        "train_rows": 818161,
+        "train_fraud": 1951
+      },
+      {
+        "pr_auc": 0.9736774576933163,
+        "roc_auc": 0.9829063080273994,
+        "recall_at_1pct_fpr": 0.9698581560283688,
+        "f1": 0.9831730769230769,
+        "precision_at_best_f1": 1.0,
+        "recall_at_best_f1": 0.966903073286052,
+        "best_threshold": 0.9999260388126291,
+        "confusion_matrix": [
+          [
+            41950,
+            0
+          ],
+          [
+            56,
+            1636
+          ]
+        ],
+        "bank_id": 2,
+        "train_rows": 544661,
+        "train_fraud": 1339
+      },
+      {
+        "pr_auc": 0.9683222934740103,
+        "roc_auc": 0.970002627522915,
+        "recall_at_1pct_fpr": 0.966903073286052,
+        "f1": 0.9831730769230769,
+        "precision_at_best_f1": 1.0,
+        "recall_at_best_f1": 0.966903073286052,
+        "best_threshold": 0.9997735509461576,
+        "confusion_matrix": [
+          [
+            41950,
+            0
+          ],
+          [
+            56,
+            1636
+          ]
+        ],
+        "bank_id": 3,
+        "train_rows": 272826,
+        "train_fraud": 649
+      }
+    ]
+  },
+  "setup_C": {
+    "pr_auc": 0.9849311821183562,
+    "roc_auc": 0.9942282549584809,
+    "recall_at_1pct_fpr": 0.9787234042553191,
+    "f1": 0.9834884419093366,
+    "precision_at_best_f1": 0.9993898718730934,
+    "recall_at_best_f1": 0.9680851063829787,
+    "best_threshold": 0.887224920129183,
+    "confusion_matrix": [
+      [
+        41949,
+        1
+      ],
+      [
+        54,
+        1638
+      ]
+    ]
+  },
+  "setup_B": {
+    "pr_auc": 0.978906093300607,
+    "roc_auc": 0.9890955192633355,
+    "recall_at_1pct_fpr": 0.9745862884160756,
+    "f1": 0.9831932773109243,
+    "precision_at_best_f1": 0.998780487804878,
+    "recall_at_best_f1": 0.9680851063829787,
+    "best_threshold": 0.0211415862289639,
+    "confusion_matrix": [
+      [
+        41948,
+        2
+      ],
+      [
+        54,
+        1638
+      ]
+    ],
+    "per_round": [
+      {
+        "round": 1,
+        "pr_auc": 0.9882302123947317,
+        "roc_auc": 0.995602139493994,
+        "recall_at_1pct_fpr": 0.9869976359338062,
+        "f1": 0.9831730769230769,
+        "lr": 0.001,
+        "bank_losses": [
+          0.044387046997321815,
+          0.036930444040335714,
+          0.07196148553569066,
+          0.1700742845771028
+        ],
+        "seconds": 22.8
+      },
+      {
+        "round": 2,
+        "pr_auc": 0.9849084614888304,
+        "roc_auc": 0.9947079434314745,
+        "recall_at_1pct_fpr": 0.9804964539007093,
+        "f1": 0.9831730769230769,
+        "lr": 0.001,
+        "bank_losses": [
+          0.03482829421884459,
+          0.019980830311542377,
+          0.013552530920763212,
+          0.02299086173037206
+        ],
+        "seconds": 22.1
+      },
+      {
+        "round": 3,
+        "pr_auc": 0.983007245747683,
+        "roc_auc": 0.9913563090136011,
+        "recall_at_1pct_fpr": 0.9769503546099291,
+        "f1": 0.9831730769230769,
+        "lr": 0.001,
+        "bank_losses": [
+          0.035271585588719116,
+          0.01644549069053028,
+          0.013598149660948482,
+          0.0241372003602281
+        ],
+        "seconds": 23.4
+      },
+      {
+        "round": 4,
+        "pr_auc": 0.9750191301846342,
+        "roc_auc": 0.9862474182650178,
+        "recall_at_1pct_fpr": 0.9710401891252955,
+        "f1": 0.9831932773109243,
+        "lr": 0.001,
+        "bank_losses": [
+          0.03373164254219724,
+          0.017820010189752794,
+          0.01747164908399161,
+          0.023353756660397455
+        ],
+        "seconds": 23.3
+      },
+      {
+        "round": 5,
+        "pr_auc": 0.978906093300607,
+        "roc_auc": 0.9890955192633355,
+        "recall_at_1pct_fpr": 0.9745862884160756,
+        "f1": 0.9831932773109243,
+        "lr": 0.001,
+        "bank_losses": [
+          0.03623271651878799,
+          0.012368844908778556,
+          0.01398887642338886,
+          0.02262833273627295
+        ],
+        "seconds": 21.9
+      }
+    ]
+  },
+  "setup_D": {
+    "pr_auc": 0.978906093300607,
+    "ring_recall": 1.0,
+    "rings_detected": 20,
+    "total_rings": 20,
+    "ring_full_recall": 1.0,
+    "rings_fully_reconstructed": 20,
+    "detected_components": 20,
+    "ring_precision": 1.0,
+    "ring_accounts_flagged": 94,
+    "ring_accounts_total": 94,
+    "high_risk_transactions": 1637,
+    "flagged_transactions": 1691,
+    "watchlist_rows": 94,
+    "cross_bank_components": 20,
+    "single_bank_baseline": {
+      "ring_recall": 1.0,
+      "ring_full_recall": 0.6
+    }
+  },
+  "setup_E": {
+    "pr_auc": 0.9914372127683082,
+    "roc_auc": 0.9982691668286855,
+    "recall_at_1pct_fpr": 0.9893617021276596,
+    "f1": 0.9934562760261749,
+    "precision_at_best_f1": 1.0,
+    "recall_at_best_f1": 0.9869976359338062,
+    "best_threshold": 7.803339198129468e-08,
+    "confusion_matrix": [
+      [
+        41950,
+        0
+      ],
+      [
+        22,
+        1670
+      ]
+    ],
+    "per_round": [
+      {
+        "round": 1,
+        "pr_auc": 0.9913965184727441,
+        "roc_auc": 0.9989431511114493,
+        "recall_at_1pct_fpr": 0.9869976359338062,
+        "f1": 0.9902164245478803,
+        "lr": 0.001,
+        "bank_losses": [
+          1.2007572479820399,
+          2.8218160330562387,
+          4.420483679570173,
+          4.208520856143823
+        ],
+        "seconds": 78.9
+      },
+      {
+        "round": 2,
+        "pr_auc": 0.9955357150638859,
+        "roc_auc": 0.9995929452770804,
+        "recall_at_1pct_fpr": 0.9911347517730497,
+        "f1": 0.9902164245478803,
+        "lr": 0.001,
+        "bank_losses": [
+          0.1845310685972439,
+          0.09174801734046013,
+          0.14687017060098978,
+          0.21861323652834172
+        ],
+        "seconds": 81.2
+      },
+      {
+        "round": 3,
+        "pr_auc": 0.9935949433576081,
+        "roc_auc": 0.9990693778758345,
+        "recall_at_1pct_fpr": 0.9899527186761229,
+        "f1": 0.9922619047619048,
+        "lr": 0.001,
+        "bank_losses": [
+          0.1476456253889918,
+          0.09748120126103003,
+          0.06623283624106907,
+          0.14479066680559666
+        ],
+        "seconds": 84.9
+      },
+      {
+        "round": 4,
+        "pr_auc": 0.9922949879433379,
+        "roc_auc": 0.9985840046548717,
+        "recall_at_1pct_fpr": 0.9899527186761229,
+        "f1": 0.9934562760261749,
+        "lr": 0.001,
+        "bank_losses": [
+          0.1627761308376918,
+          0.1204373406071727,
+          0.10316558611986379,
+          0.10702388011836163
+        ],
+        "seconds": 76.9
+      },
+      {
+        "round": 5,
+        "pr_auc": 0.9914372127683082,
+        "roc_auc": 0.9982691668286855,
+        "recall_at_1pct_fpr": 0.9893617021276596,
+        "f1": 0.9934562760261749,
+        "lr": 0.001,
+        "bank_losses": [
+          0.1700625877526165,
+          0.08034118945868954,
+          0.09624484476733455,
+          0.1486412133667761
+        ],
+        "seconds": 78.4
+      }
+    ],
+    "dp_epsilon_estimate": 14.167623037812678,
+    "dp_delta": 1e-05,
+    "dp_per_bank": [
+      {
+        "bank_id": 0,
+        "sample_rate": 0.0018768448844521547,
+        "steps": 5330,
+        "epsilon": 9.172310761758474,
+        "rdp_order": 3
+      },
+      {
+        "bank_id": 1,
+        "sample_rate": 0.002503174803003321,
+        "steps": 4000,
+        "epsilon": 11.469764760731222,
+        "rdp_order": 2
+      },
+      {
+        "bank_id": 2,
+        "sample_rate": 0.003760137039369443,
+        "steps": 2660,
+        "epsilon": 12.141627528654942,
+        "rdp_order": 2
+      },
+      {
+        "bank_id": 3,
+        "sample_rate": 0.007506615938363646,
+        "steps": 1340,
+        "epsilon": 14.167623037812678,
+        "rdp_order": 2
+      }
+    ],
+    "noise_multiplier": 0.5,
+    "max_grad_norm": 1.0,
+    "ring_recall": 1.0,
+    "rings_detected": 20,
+    "total_rings": 20,
+    "ring_full_recall": 1.0,
+    "rings_fully_reconstructed": 20,
+    "detected_components": 20,
+    "ring_precision": 1.0,
+    "ring_accounts_flagged": 94,
+    "ring_accounts_total": 94,
+    "high_risk_transactions": 1628,
+    "flagged_transactions": 1682,
+    "watchlist_rows": 94,
+    "cross_bank_components": 20,
+    "single_bank_baseline": {
+      "ring_recall": 1.0,
+      "ring_full_recall": 0.6
+    }
+  },
+  "timings_seconds": {
+    "data": 30.0,
+    "setup_A": 111.6,
+    "setup_C": 110.5,
+    "setup_B": 114.1,
+    "setup_D": 0.1,
+    "setup_E": 401.0,
+    "evaluate": 0.2,
+    "export": 0.0,
+    "total": 767.5
+  },
+  "onnx": {
+    "exported": "/home/linux1/shared/scamshield/artifacts/scamshield_model.onnx"
+  }
+}
